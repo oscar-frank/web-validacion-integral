@@ -14,7 +14,7 @@ export default function Header() {
     <header className="site">
       <div className="nav-inner">
         <a href="#inicio">
-          <img src="/logo-slogan-derecha.png" alt="Validación Integral" style={{ height: 84, width: 'auto' }} />
+          <img src={`${import.meta.env.BASE_URL}logo-slogan-derecha.png`} alt="Validación Integral" style={{ height: 84, width: 'auto' }} />
         </a>
         <nav>
           <ul className={`nav-links${open ? ' open' : ''}`}>
@@ -30,7 +30,7 @@ export default function Header() {
             className="btn-img"
             href="https://wa.me/51978683393?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n%20de%20certificaci%C3%B3n%20de%20infraestructura."
           >
-            <img src="/boton-whatsapp.png" alt="Contactar por WhatsApp" />
+            <img src={`${import.meta.env.BASE_URL}boton-whatsapp.png`} alt="Contactar por WhatsApp" />
           </a>
           <button
             className="burger"
