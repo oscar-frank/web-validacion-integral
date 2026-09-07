@@ -14,7 +14,7 @@ export default function CtaFinal() {
             className="btn-img btn-img-sm"
             href="https://wa.me/51978683393?text=Hola%2C%20quiero%20solicitar%20una%20cotizaci%C3%B3n%20de%20certificaci%C3%B3n%20de%20infraestructura."
           >
-            <img src="/boton-whatsapp.png" alt="Contactar por WhatsApp" />
+            <img src={`${import.meta.env.BASE_URL}boton-whatsapp.png`} alt="Contactar por WhatsApp" />
           </a>
         </div>
       </div>
