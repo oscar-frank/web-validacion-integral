@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <img
-              src="/logo-con-slogan-abajo.png"
-              alt="Validación Integral"
-              style={{ maxWidth: 170, marginBottom: 22 }}
-            />
+  src={`${import.meta.env.BASE_URL}logo-con-slogan-abajo.png`}
+  alt="Validación Integral"
+  style={{ maxWidth: 170, marginBottom: 22 }}
+/>
             <p className="footer-quote">
               &#8220;Detrás de cada red hay una promesa: que va a funcionar cuando se le necesite. Certificar
               no es un trámite, es la diferencia entre suponer que su infraestructura funciona y
