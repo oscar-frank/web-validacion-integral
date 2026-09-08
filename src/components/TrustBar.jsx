@@ -29,8 +29,7 @@ function CountItem({ target, prefix = '', suffix = '', label }) {
 export default function TrustBar() {
   return (
     <section className="trustbar">
-      <img src="/cifras-bg.jpg" alt="" className="trustbar-bg" aria-hidden="true" />
-      <div className="trustbar-overlay"></div>
+      <img src={`${import.meta.env.BASE_URL}cifras-bg.jpg`} alt="" className="trustbar-bg" aria-hidden="true" />
       <div className="wrap">
         <Reveal className="trustbar-head" as="div">
           <h2>Validación Integral en cifras</h2>
